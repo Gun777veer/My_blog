@@ -1,0 +1,60 @@
+.Nav{
+    width: 100%;
+    height: 50px;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    z-index: 0;
+    box-shadow: 0px 0px 10px;
+    z-index: 99;
+
+}
+
+
+
+.h{
+    color: black;
+    text-decoration: none;
+}
+
+.ham{
+    display: none;
+}
+
+.active{
+    color:black;
+}
+.topLeft{
+    flex: 1;
+    font-size: 70px;
+    cursor: pointer;
+
+}
+.topCentre{
+    flex: 6;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.listItem{
+    margin-right: 60px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 713px){
+    .topCentre{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+}

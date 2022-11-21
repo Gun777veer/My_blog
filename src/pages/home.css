@@ -1,0 +1,14 @@
+.home{
+    display:flex;
+}
+
+.active{
+    color:black;
+}
+
+
+@media screen and (max-width: 713px){
+    .home{
+        flex-direction: column;
+    }
+}

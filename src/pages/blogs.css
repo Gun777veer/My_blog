@@ -1,0 +1,26 @@
+
+
+.blog{
+    display:flex;
+}
+
+.bc1{
+    flex: 9;
+}
+
+.bc2{
+    flex: 3;
+}
+
+@media screen and (max-width: 713px){
+    .aaa{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .blog{
+        flex-direction: column;
+
+    }
+
+}
