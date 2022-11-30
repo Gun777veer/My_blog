@@ -1,0 +1,38 @@
+.header2{
+    margin-top: 60px;
+    font-family: 'Amatic SC', cursive;
+    color: aliceblue;
+}
+
+.headerTitles2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sm_{
+    font-size: 30px;
+}
+
+.lg_{
+    position: absolute;
+    top: 20%;
+    font-size: 80px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.headerImg2{
+    width: 100%;
+    height: 650px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    object-fit: cover;
+}
+@media screen and (max-width: 713px){
+    .headerImg2{
+        height: auto;
+    }
+    .lg_{
+        font-size: 40px;
+    }
+}

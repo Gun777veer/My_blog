@@ -1,0 +1,59 @@
+.postp1{
+  display: flex;
+}
+
+.post1{
+  flex: 9;
+    margin: 20px;
+    padding-bottom: 30px;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px;
+    font-size: 90px;
+}
+
+.k{
+    width: 800px;
+    height: 470px;
+    box-shadow: 0px 0px 10px;
+
+}
+
+.top {
+    position: relative;
+    width: 50%;
+  }
+  .sm3{
+    font-size: 30px;
+    margin: 50px;
+    width: 80%;
+
+
+}
+
+
+
+@media screen and (max-width: 713px){
+  .postp1{
+      flex-direction: column;
+
+  }
+
+  .post1{
+    flex-direction: column;
+    width: auto;
+  }
+
+  .top1{
+    width: 0%;
+  }
+
+  .k{
+    width: 100%;
+
+    height: auto;
+  }
+}
